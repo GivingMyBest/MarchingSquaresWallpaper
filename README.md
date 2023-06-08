@@ -1,27 +1,10 @@
-DEPRECATED
+# Marching Squares Wallpaper
 
-See repository here for a Unity 2019 sample that includes Loopback and Microphone as well as a VFX Graph example:
+A Unity Project, wich displays the Marching Squares algorithm on 3d Noise. The Noise is moved based on the System Sound.
 
-https://github.com/hallidev/UnityWasapiAudio
+It is based on this wonderful Unity Project, wich provides easy to use Sound capturing:
+https://github.com/hallidev/UnityWASAPILoopbackAudio
 
-# UnityWASAPILoopbackAudio
-A barebones example of WASAPI Loopback Audio in Unity using CSCore
+I also used this tutorial from the Coding Train for the Marching Squares: 
+https://www.youtube.com/watch?v=0ZONMNUKTfU
 
-Check out CSCore:
-https://github.com/filoe/cscore
-
-Instructions:
-
-1: Clone / download
-
-2: Open in Unity
-
-3: IMPORTANT! If you are going to be making a build using this, you need to go to Edit -> Project Settings -> Player -> Api Compatibility Level and set it to ".NET 4.x". Otherwise you will get a kernel exception upon trying to run Unity Player.
-
-4: Play some music on your computer
-
-5: Bang that "Play" button
-
-That's it!
-
-You won't see the bar analyzer until you hit Play - it's instantiated at runtime.
